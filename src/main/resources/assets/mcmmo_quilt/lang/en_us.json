@@ -1,0 +1,14 @@
+{
+  "text.autoconfig.mcmmo_quilt.option.backgroundColor": "XPBar Background",
+  "text.autoconfig.mcmmo_quilt.category.default": "General",
+  "text.autoconfig.mcmmo_quilt.option.backgroundColor.@PrefixText": "§8Every color is preceded by the opacity value in hex, see mod page for help",
+  "text.autoconfig.mcmmo_quilt.option.backgroundColor": "Background color",
+  "text.autoconfig.mcmmo_quilt.category.textSettings": "Text",
+  "text.autoconfig.mcmmo_quilt.option.textSettings.showText": "Show numbers and symbols on OneBar",
+  "text.autoconfig.mcmmo_quilt.option.textSettings.showText.@Tooltip": "Disabling will still show numeric absorption health and hardcore indicator (if exist)",
+  "text.autoconfig.mcmmo_quilt.option.textSettings.textColor": "Text color",
+  "text.autoconfig.mcmmo_quilt.category.goodThings": "Good effects",
+  "text.autoconfig.mcmmo_quilt.option.goodThings.healthColor": "Health color",
+  "text.autoconfig.mcmmo_quilt.option.exponent": "Xp Growth Curve",
+  "text.autoconfig.mcmmo_quilt.option.maxLevel": "Max Level for All Skills"
+}

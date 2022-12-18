@@ -1,25 +1,27 @@
 {
 	"schema_version": 1,
 	"quilt_loader": {
-		"group": "com.example",
-		"id": "example_mod",
+		"group": "com.voidbaroness.mcmmo_quilt",
+		"id": "mcmmo-quilt",
 		"version": "${version}",
 		"metadata": {
-			"name": "Mod Name",
-			"description": "A short description of your mod.",
+			"name": "Quilted McMMO",
+			"description": "This is an unofficial port of the server plugin, McMMO.  This is all created using my own code, and therefor this is my own intellectual property.",
 			"contributors": {
-				"Your name here": "Owner"
+				"VoidBaroness": "Owner"
 			},
 			"contact": {
 				"homepage": "https://example.com/",
 				"issues": "https://github.com/QuiltMC/quilt-template-mod/issues",
 				"sources": "https://github.com/QuiltMC/quilt-template-mod"
 			},
-			"icon": "assets/example_mod/icon.png"
+			"icon": "assets/mcmmo_quilt/icon.png",
+			"license": "MIT"
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "com.example.example_mod.ExampleMod"
+			"init": "com.voidbaroness.mcmmo_quilt.McMMO",
+			"modmenu": ["com.voidbaroness.mcmmo_quilt.ModMenuIntegration"]
 		},
 		"depends": [
 			{
@@ -32,9 +34,9 @@
 			},
 			{
 				"id": "minecraft",
-				"versions": ">=1.19.2"
+				"versions": ">=1.19.3"
 			}
 		]
 	},
-	"mixin": "example_mod.mixins.json"
+	"mixin": "mcmmo_quilt.mixins.json"
 }
